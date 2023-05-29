@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Advanced Tailwind</title>
+</head>
+<body class="m-0 p-0">
+    <div class="w-screen  bg-cover h-screen bg-[url('./assets/BG.png')] text-[#043A53]">
+        <nav class="bg-white px-4 lg:px-14 md:bg-transparent  w-full h-16 flex items-center justify-between">
+            <img class="w-24 h-5" src="./assets/Logo.png" alt="logo">
+            <ul class="hidden md:flex font-semibold">
+                <li class="md:mx-2 lg:mx-2 cursor-pointer">Features</li>
+                <li class="md:mx-2 lg:mx-2 cursor-pointer">Solutions</li>
+                <li class="md:mx-2 lg:mx-2 cursor-pointer">Company</li>
+                <li class="md:mx-2 lg:mx-2 cursor-pointer">Resources</li>
+                <li class="md:mx-2 lg:mx-2 cursor-pointer">Contact</li>
+            </ul>
+            <div class="md:hidden text-3xl text-[#043A53]">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="hidden md:flex ">
+                <div class="md:px-2 lg:px-4 py-1 bg-white text-[#12141D] rounded-2xl mr-2">Log In</div>
+                <div class="md:px-2 lg:px-4 py-1 text-white bg-[#043A53] rounded-2xl">Sign Up</div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
